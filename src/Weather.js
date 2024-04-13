@@ -9,11 +9,7 @@ export default function Weather() {
           <input type="text" placeholder="Type a location..." />
           <button type="submit"> Search </button>
         </form>
-        <div
-          style={{
-            backgroundImage: `url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/039/original/image.jpg?1713049051")`,
-          }}
-        ></div>
+
         <div className="weather-app-wrap">
           <div className="overview">
             <h1>Cape Town</h1>
