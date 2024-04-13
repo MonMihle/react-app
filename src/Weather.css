@@ -46,3 +46,16 @@ weather-forecast-temperature-min {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+
+span {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  padding: 3px 20px;
+  cursor: pointer;
+}
