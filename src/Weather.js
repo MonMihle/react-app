@@ -47,27 +47,48 @@ export default function Weather() {
           <div className="weather-forecast">
             <span>
               Sunday
-              <p>⛅</p>
+              <div>
+                <span aria-label="emoji" role="img">
+                  ⛅
+                </span>
+              </div>
               <p>17°C</p>
             </span>
+
             <span>
               Monday
-              <p>⛈️</p>
+              <div>
+                <span aria-label="emoji" role="img">
+                  ⛈️
+                </span>
+              </div>
               <p>8°C</p>
             </span>
             <span>
               Tuesday
-              <p>🌩️</p>
+              <div>
+                <span aria-label="emoji" role="img">
+                  🌩️
+                </span>
+              </div>
               <p>15°C</p>
             </span>
             <span>
               Wednesday
-              <p>🔆</p>
+              <div>
+                <span aria-label="emoji" role="img">
+                  🔆
+                </span>
+              </div>
               <p>25°C</p>
             </span>
             <span>
               Thursday
-              <p>☁️</p>
+              <div>
+                <span aria-label="emoji" role="img">
+                  ☁️
+                </span>
+              </div>
               <p>19°C</p>
             </span>
           </div>
